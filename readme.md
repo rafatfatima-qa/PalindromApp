@@ -27,5 +27,5 @@
 - To run this app, click live github website link given below. OR
 - open index.html in your browser.
 
-## Repo Link: 
-## Live Link: 
+## Repo Link: https://github.com/rafatfatima-qa/PalindromApp
+## Live Link: https://rafatfatima-qa.github.io/PalindromApp/
