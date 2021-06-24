@@ -1,0 +1,40 @@
+body{
+  background: #283c86; 
+  font-family: helvetica;
+  background: linear-gradient(to right, #283c86, #45a247);
+}
+#palindrome{
+  background:#fff;
+  width:60%;
+  margin: 0 auto;
+  padding: 5px 20px;
+  border: 1.5px solid black;
+  text-align:center;
+}
+[data-top] h1{
+  margin: 5px 0;
+}
+[data-top] span{
+  display: block;
+  margin: 15px 0;
+  font-size:18px;
+}
+/*  input styling */
+[data-entry] input, button{
+   font-size:20px;
+}
+[data-entry] input{
+  position:relative;
+  right:-5px;
+  padding:1px 10px;
+  padding-left:4px;
+  outline:none;
+}
+[data-message]{
+  margin:10px auto;
+  font-size:20px;
+  background-color:#808080;
+  color:#fff;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
