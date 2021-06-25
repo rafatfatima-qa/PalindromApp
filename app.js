@@ -5,6 +5,21 @@ Plaindrome means the word remains same if it is reads backward or forward.
 
 */
 
+//initially Check button will be deactivated
+document.querySelector("#checkBtn").disabled = true;
+
+inputField.addEventListener('input', function stateHandle() {
+   
+   if (document.querySelector("#inputField").value === "") {
+    document.querySelector("#checkBtn").disabled = true; //button remains disabled
+   } 
+   
+   else {
+    document.querySelector("#checkBtn").disabled = false; //button is enabled
+   }
+ });
+
+
 function checkPalindrome(str) {
 
 
@@ -25,9 +40,11 @@ function checkPalindrome(str) {
    if (inputStr == reverseString) {
       //  console.log('It is a palindrome');
       document.querySelector("#results").innerHTML = "It is a palindrome";
+      document.querySelector("#checkBtn").disabled = false;
    }
    else {
       //  console.log('It is not a palindrome');
       document.querySelector("#results").innerHTML = "It is not a palindrome";
+      document.querySelector("#checkBtn").disabled = false;
    }
 }

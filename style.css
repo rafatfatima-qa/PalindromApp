@@ -1,10 +1,10 @@
 body{
-  background: #283c86; 
-  font-family: helvetica;
+  background: #37498b; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #283c86, #45a247);
 }
 #palindrome{
-  background:#fff;
+  background:rgb(104, 129, 197);
   width:60%;
   margin: 0 auto;
   padding: 5px 20px;
@@ -20,21 +20,54 @@ body{
   font-size:18px;
 }
 /*  input styling */
-[data-entry] input, button{
-   font-size:20px;
+#checkBtn{
+    background-color: rgb(70, 70, 167);
+    border:none;
+    font-family: 'Itim', cursive;
+    /* color: rgb(0, 0, 0); */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    /* margin-left: 50px; */
+    padding-bottom: 10px;
+    text-decoration:none;
+    font-size: 15px;
+    border-radius: 10px;
+    /*transition-duration: 0.4s; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-[data-entry] input{
-  position:relative;
-  right:-5px;
-  padding:1px 10px;
-  padding-left:4px;
-  outline:none;
-}
+
+/* #checkBtn:hover {
+  background-color: #4CAF50;
+  color: white;
+} */
+
+#inputField{
+
+  padding: 10px;
+  font-size: medium;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+  border: none;
+  
+  }
+  
+  #inputField:focus{
+  
+  outline: none;
+  border: 1px solid rebeccapurple;
+  background-color: rgb(219, 204, 204);
+  
+  
+  }
 [data-message]{
   margin:10px auto;
   font-size:20px;
-  background-color:#808080;
-  color:#fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:#fff;
+  color:black;
   padding-top: 6px;
   padding-bottom: 6px;
 }
