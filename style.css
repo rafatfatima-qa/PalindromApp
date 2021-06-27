@@ -1,8 +1,10 @@
-body{
+body
+{
   background: #37498b; 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #283c86, #45a247);
 }
+
 #palindrome{
   background:rgb(104, 129, 197);
   width:60%;
@@ -11,14 +13,17 @@ body{
   border: 1.5px solid black;
   text-align:center;
 }
+
 [data-top] h1{
   margin: 5px 0;
 }
+
 [data-top] span{
   display: block;
   margin: 15px 0;
   font-size:18px;
 }
+
 /*  input styling */
 #checkBtn{
     background-color: rgb(70, 70, 167);
@@ -43,7 +48,6 @@ body{
 } */
 
 #inputField{
-
   padding: 10px;
   font-size: medium;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -52,16 +56,14 @@ body{
   border-radius: 10px;
   border: none;
   
-  }
+}
   
-  #inputField:focus{
-  
+#inputField:focus{
   outline: none;
   border: 1px solid rebeccapurple;
   background-color: rgb(219, 204, 204);
-  
-  
-  }
+}
+
 [data-message]{
   margin:10px auto;
   font-size:20px;

@@ -7,7 +7,6 @@
 ## Group Members:
 - Rafat Fatima
 
-
 ## What does this app do?
 - This App checks for an input string if its palindrome or not.
 
